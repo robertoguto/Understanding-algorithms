@@ -1,0 +1,12 @@
+{
+  "name": "understanding-algorithms",
+  "version": "1.0.0",
+  "main": "Understanding algorithms",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
