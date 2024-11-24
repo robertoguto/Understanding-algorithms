@@ -11,10 +11,6 @@ function binarySearch(list, search) {
     let currentMiddle = Math.floor((start + end) / 2);
     let guess = newList[currentMiddle];
 
-    console.log(list.sort((a, b) => a - b));
-    console.log(newList);
-    console.log(guess);
-
     if (guess === search) {
       console.log(`Attempt: ${attempt}`);
       return guess;
@@ -28,6 +24,3 @@ function binarySearch(list, search) {
   console.log(`Attempt: ${attempt}`);
   return -1;
 }
-
-const list = [1,2,5,7,4,3,8,9,10,2,6];
-console.log(binarySearch`${list, 2}`);
